@@ -52,4 +52,13 @@ CoNLL2003            |  CoNLL2003 | CoNLL2003
 ![conll2003-acctracing](images/conll2003_acc_tracing.png)  |  ![conll2003-foundtag](images/conll2003_number_tags_found.png) | ![conll2003-statsscores](images/conll2003_stats_scores.png) 
 
 ---
-© 2023 by FPT Software AI Center (FSoft - AIC). All Rights Reserved.
+## Citation and reference
+For technical details and full experimental results, please check our paper.
+```
+@inproceedings{NguyenDuc2023ClassBI,
+  title={Class based Influence Functions for Error Detection},
+  author={Thang Nguyen-Duc and Hoang Thanh-Tung and Quan Hung Tran and Dang Huu-Tien and Hieu Ngoc Nguyen and An Dau and Nghi D. Q. Bui},
+  year={2023}
+}
+```
+© 2023 by FPT Software AI Center (FSoft - AIC)
