@@ -1,0 +1,11 @@
+model: BigCloneModel
+data: bigclone
+number_classes: 2
+
+df_train: data/bigclone/processed/noise/noise20%.csv
+df_test: data/bigclone/processed/subclass/subclass250.csv
+dir_checkpoint: checkpoints/bigclone/bigclone_codebert_train_noise_20%
+
+methods: ['GD', 'GC', 'IF', 'TracIn']
+use_exact_hessian: False
+device: cuda

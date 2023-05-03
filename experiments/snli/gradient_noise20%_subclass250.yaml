@@ -1,0 +1,11 @@
+model: bert
+data: snli
+number_classes: 3
+
+df_train: data/snli/processed/noise/noise20%.csv
+df_test: data/snli/processed/subclass/subclass250.csv
+dir_checkpoint: checkpoints/snli/snli_bert_train_noise_20%
+
+methods: ['GD', 'GC', 'IF', 'TracIn']
+use_exact_hessian: False
+device: cuda

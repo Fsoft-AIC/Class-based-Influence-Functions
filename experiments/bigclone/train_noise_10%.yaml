@@ -1,0 +1,16 @@
+model: BigCloneModel
+data: bigclone
+number_classes: 2
+
+df_train: data/bigclone/processed/noise/noise10%.csv
+df_val: data/bigclone/processed/val.csv
+dir_checkpoint: checkpoints/bigclone/SEED2_bigclone_codebert_train_noise_10%
+name_project: SEED2_bigclone_codebert_train_noise_10%
+
+# model hyperparameter
+epoch: 7
+learning_rate: 5e-6
+batch_size: 8
+num_worker: 8
+device: 'cuda'
+save_each_epoch: True

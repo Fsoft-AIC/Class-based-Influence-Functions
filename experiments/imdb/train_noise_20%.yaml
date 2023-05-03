@@ -1,0 +1,16 @@
+model: bert
+data: imdb
+number_classes: 2
+
+df_train: data/imdb/processed/noise/noise20%.csv
+df_val: data/imdb/processed/val.csv
+dir_checkpoint: checkpoints/imdb/SEED2_imdb_bert_train_noise_20%
+name_project: SEED2_imdb_bert_train_noise_20%
+
+# model hyperparameter
+epoch: 15
+learning_rate: 5e-5
+batch_size: 32
+num_worker: 32
+device: 'cuda'
+save_each_epoch: True
